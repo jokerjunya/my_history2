@@ -105,60 +105,55 @@ export default function Home() {
 
   // サンプル写真の配列（Unsplashの画像を使用）
   const allPhotos: CategoryPhoto[] = [
-    // 家族系 (3枚)
     {
       url: 'https://images.unsplash.com/photo-1511895426328-dc8714191300',
       category: 'family',
-      description: '家族での食事風景'
+      description: '家族の思い出'
     },
     {
-      url: 'https://images.unsplash.com/photo-1576089073624-b5a6fb757111',
-      category: 'family',
-      description: '家族での集合写真'
+      url: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1',
+      category: 'school',
+      description: '学校生活'
     },
     {
       url: 'https://images.unsplash.com/photo-1511895426328-dc8714191300',
-      category: 'family',
-      description: '祖父母と庭先'
-    },
-    // 学校・友人系 (2枚)
-    {
-      url: 'https://images.unsplash.com/photo-1492538368677-f6e0afe31dcc',
-      category: 'school',
-      description: '教室での集合写真'
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70',
-      category: 'school',
-      description: '遠足'
-    },
-    // レジャー系 (2枚)
-    {
-      url: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e',
       category: 'leisure',
-      description: '海辺'
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1519331379826-f10be5486c6f',
-      category: 'leisure',
-      description: '公園'
-    },
-    // 行事系 (2枚)
-    {
-      url: 'https://images.unsplash.com/photo-1464349153735-7db50ed83c84',
-      category: 'event',
-      description: '誕生日'
+      description: '趣味の時間'
     },
     {
       url: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1',
       category: 'event',
-      description: '卒業式'
+      description: '特別な出来事'
     },
-    // 昭和感のある風景 (1枚)
     {
-      url: 'https://images.unsplash.com/photo-1480796927426-f609979314bd',
+      url: 'https://images.unsplash.com/photo-1511895426328-dc8714191300',
       category: 'retro',
-      description: '昭和感のある風景'
+      description: '懐かしい思い出'
+    },
+    {
+      url: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1',
+      category: 'family',
+      description: '家族の思い出'
+    },
+    {
+      url: 'https://images.unsplash.com/photo-1511895426328-dc8714191300',
+      category: 'school',
+      description: '学校生活'
+    },
+    {
+      url: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1',
+      category: 'leisure',
+      description: '趣味の時間'
+    },
+    {
+      url: 'https://images.unsplash.com/photo-1511895426328-dc8714191300',
+      category: 'event',
+      description: '特別な出来事'
+    },
+    {
+      url: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1',
+      category: 'retro',
+      description: '懐かしい思い出'
     }
   ];
 
