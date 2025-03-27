@@ -1,3 +1,50 @@
+# 思い出アプリ (My History)
+
+高齢者向けに設計された思い出を記録するためのWebアプリケーションです。
+
+## 機能
+
+- 写真を選択して思い出を記録
+- 4つの質問で思い出を簡単に記録
+  - 場所（選択式）
+  - 人物（選択式）
+  - 出来事（選択式）
+  - 感想（音声入力）
+- 思い出せない場合はスキップ可能
+- タイムライン形式で思い出を表示
+- 高齢者向けに最適化されたUI/UX
+
+## 技術スタック
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Web Speech API（音声入力用）
+
+## 開発環境のセットアップ
+
+1. リポジトリをクローン
+```bash
+git clone [repository-url]
+cd my_history2
+```
+
+2. 依存関係のインストール
+```bash
+npm install
+```
+
+3. 開発サーバーの起動
+```bash
+npm run dev
+```
+
+4. ブラウザで http://localhost:3004 にアクセス
+
+## ライセンス
+
+MIT
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
